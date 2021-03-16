@@ -23,7 +23,7 @@ One important modification in U-Net is that there are a large number of feature 
 
 There are 1560 damage images (earthquakes) as data and 4 masks of each image. We did a training with U-net on these images, then we asked for pixel estimates over the data it had never encountered.
 
-We used a wide network structure, we used the relu activation function in the intermediate layers and the sigmoid activation function in the last layer. In the last layer, we made a binary classification, so is the pixel value 1 or 0. The value 1 represents damaged pixels, the value 0 represents the smooth and stable pixels. We used Adam as the optimization algorithm and binary_crossentropy as the loss function.
+We used a wide network structure, we used the relu activation function in the intermediate layers and the sigmoid activation function in the last layer. In the last layer, we made a binary classification, so is the pixel value 1 or 0. The value 1 represents damaged pixels, the value 0 represents the smooth and stable pixels. We used Adam as the optimization algorithm and binary_crossentropy as the loss function. batch_size=128, epochs=175
 
 ![untitled-f001190](https://user-images.githubusercontent.com/54184905/111334058-4c5e8500-8684-11eb-8820-adbba779b119.png)
 
