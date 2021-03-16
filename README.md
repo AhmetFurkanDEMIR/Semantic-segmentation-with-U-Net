@@ -11,7 +11,7 @@ Semantic segmentation is a natural step in the progression from coarse to fine i
 
 **U-net**
 
-![](https://www.researchgate.net/publication/334287825/figure/fig2/AS:778191392210944@1562546694325/The-architecture-of-Unet.ppm)
+![](https://miro.medium.com/max/700/0*6bTOX4gO-mh8hLm2.png)
 
 The U-Net architecture stems from the so-called “fully convolutional network” first proposed by Long, Shelhamer, and Darrell.
 
@@ -19,6 +19,7 @@ The main idea is to supplement a usual contracting network by successive layers,
 
 One important modification in U-Net is that there are a large number of feature channels in the upsampling part, which allow the network to propagate context information to higher resolution layers. As a consequence, the expansive path is more or less symmetric to the contracting part, and yields a u-shaped architecture. The network only uses the valid part of each convolution without any fully connected layers. To predict the pixels in the border region of the image, the missing context is extrapolated by mirroring the input image. This tiling strategy is important to apply the network to large images, since otherwise the resolution would be limited by the GPU memory. 
 
+**Our problem and its solution**
 
 There are 1560 damage images (earthquakes) as data and 4 masks of each image. We did a training with U-net on these images, then we asked for pixel estimates over the data it had never encountered.
 
