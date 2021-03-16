@@ -34,3 +34,12 @@ We used a wide network structure, we used the relu activation function in the in
 As can be seen in the test picture above, the damaged parts, the parts with 1, are white, the undamaged parts, that is, the parts with 0, are black.
 
 #### **[Test Video](/Test.mp4)**
+
+##### **references**
+
+[Link1](https://www.kaggle.com/abdulkarimx2/keras-u-net-starter-lb-0-277)
+
+[Link2](https://medium.com/@pallawi.ds/semantic-segmentation-with-u-net-train-and-test-on-your-custom-data-in-keras-39e4f972ec89)
+
+[Link3](https://github.com/neptune-ai/open-solution-mapping-challenge)
+
