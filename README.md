@@ -2,7 +2,7 @@
 
 # Semantic segmentation on earthquake data with U-net
 
-![https://static.dw.com/image/52147325_303.jpg]
+![](https://static.dw.com/image/52147325_303.jpg)
 
 
 
