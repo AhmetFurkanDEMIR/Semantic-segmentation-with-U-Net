@@ -4,7 +4,7 @@
 
 ![](https://static.dw.com/image/52147325_303.jpg)
 
-
+Identifying the damaged parts of the buildings with the model we train on images of buildings damaged during the earthquake.
 
 **Semantic segmentation**
 
