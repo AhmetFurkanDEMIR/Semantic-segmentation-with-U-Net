@@ -23,7 +23,7 @@ The main idea is to supplement a usual contracting network by successive layers,
 
 One important modification in U-Net is that there are a large number of feature channels in the upsampling part, which allow the network to propagate context information to higher resolution layers. As a consequence, the expansive path is more or less symmetric to the contracting part, and yields a u-shaped architecture. The network only uses the valid part of each convolution without any fully connected layers. To predict the pixels in the border region of the image, the missing context is extrapolated by mirroring the input image. This tiling strategy is important to apply the network to large images, since otherwise the resolution would be limited by the GPU memory. 
 
-### **data and our model**
+### **Data and our model**
 
 There are 1560 damage images (earthquakes) as data and 4 masks of each image. We did a training with U-net on these images, then we asked for pixel estimates over the data it had never encountered.
 
