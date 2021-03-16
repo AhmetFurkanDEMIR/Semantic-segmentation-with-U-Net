@@ -28,3 +28,5 @@ We used a wide network structure, we used the relu activation function in the in
 ![untitled-f001190](https://user-images.githubusercontent.com/54184905/111334058-4c5e8500-8684-11eb-8820-adbba779b119.png)
 
 As can be seen in the test picture above, the damaged parts, the parts with 1, are white, the undamaged parts, that is, the parts with 0, are black.
+
+#### **[Test Video](/Test.mp4)**
